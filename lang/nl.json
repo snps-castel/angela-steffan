@@ -7,7 +7,7 @@
   "home": {
     "hero": {
       "title": "Begin Uw Reis naar Welzijn",
-      "subtitle": "Een veilige, verzorgende ruimte voor genezing, groei en zelfontdekking door natuurlijke therapieën en compassievolle begeleiding met Angela Steffan.",
+      "subtitle": "Een veilige, verzorgende ruimte voor genezing, groei en zelfontdekking door natuurlijke therapieën en compassievolle begeleiding met ---.",
       "cta": "Ontdek Uw Pad"
     },
     "welcome": {
@@ -29,8 +29,8 @@
     }
   },
   "about": {
-    "title": "Over Angela Steffan",
-    "intro1": "Hallo, en welkom. Ik ben zo blij dat u hier bent. Mijn naam is Angela Steffan, en mijn reis naar therapie begon met mijn eigen genezingspad en een diep geloof dat iedereen het verdient zich compleet, begrepen en in vrede met zichzelf te voelen.",
+    "title": "Over ---",
+    "intro1": "Hallo, en welkom. Ik ben zo blij dat u hier bent. Mijn naam is ---, en mijn reis naar therapie begon met mijn eigen genezingspad en een diep geloof dat iedereen het verdient zich compleet, begrepen en in vrede met zichzelf te voelen.",
     "intro2": "Al meer dan tien jaar heb ik het voorrecht om mensen te begeleiden door hun meest uitdagende momenten en hun grootste doorbraken. Mijn benadering is geworteld in warmte, nieuwsgierigheid en het begrip dat genezing gebeurt in relatie – met onszelf, met de natuur en met elkaar.",
     "philosophy": {
       "title": "Mijn Filosofie",
@@ -81,7 +81,8 @@
       "message": "Wat brengt u vandaag hier?",
       "messagePlaceholder": "Deel zoveel of zo weinig als comfortabel voelt. Er is geen druk – dit is uw ruimte.",
       "submit": "Verstuur Uw Bericht",
-      "successMessage": "Dank u, {name}! Uw bericht is ontvangen.\n\nOpmerking: Dit is een demo-formulier. Er is geen daadwerkelijk bericht verzonden."
+      "successMessage": "Dank u! Uw bericht is succesvol verzonden. Ik zal binnen 24-48 uur reageren.",
+      "errorMessage": "Oeps! Er is iets misgegaan. Probeer het opnieuw of neem direct contact met mij op via e-mail."
     },
     "other": {
       "title": "Andere Manieren om Contact Op Te Nemen",
@@ -89,7 +90,7 @@
       "phone": "Telefoon:",
       "location": "Locatie:",
       "hours": "Openingstijden:",
-      "emailValue": "hallo@angela-steffan.nl",
+      "emailValue": "hallo@---.nl",
       "phoneValue": "(555) 123-4567",
       "locationValue": "Serene Wellness Center, Natuurweg 123, Suite 200",
       "hoursValue": "Dinsdag - Zaterdag, 9:00 - 18:00 uur",
@@ -97,6 +98,6 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Angela Steffan. Alle rechten voorbehouden."
+    "copyright": "© 2025 ---. Alle rechten voorbehouden."
   }
 }

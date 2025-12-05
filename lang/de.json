@@ -7,7 +7,7 @@
   "home": {
     "hero": {
       "title": "Beginnen Sie Ihre Reise zum Wohlbefinden",
-      "subtitle": "Ein sicherer, pflegender Raum für Heilung, Wachstum und Selbstfindung durch natürliche Therapien und einfühlsame Begleitung mit Angela Steffan.",
+      "subtitle": "Ein sicherer, pflegender Raum für Heilung, Wachstum und Selbstfindung durch natürliche Therapien und einfühlsame Begleitung mit ---.",
       "cta": "Entdecken Sie Ihren Weg"
     },
     "welcome": {
@@ -29,8 +29,8 @@
     }
   },
   "about": {
-    "title": "Über Angela Steffan",
-    "intro1": "Hallo und willkommen. Ich freue mich sehr, dass Sie hier sind. Mein Name ist Angela Steffan, und meine Reise in die Therapie begann mit meinem eigenen Heilungsweg und einer tiefen Überzeugung, dass jeder es verdient, sich ganz, verstanden und im Frieden mit sich selbst zu fühlen.",
+    "title": "Über ---",
+    "intro1": "Hallo und willkommen. Ich freue mich sehr, dass Sie hier sind. Mein Name ist ---, und meine Reise in die Therapie begann mit meinem eigenen Heilungsweg und einer tiefen Überzeugung, dass jeder es verdient, sich ganz, verstanden und im Frieden mit sich selbst zu fühlen.",
     "intro2": "Seit über einem Jahrzehnt habe ich das Privileg, Menschen durch ihre herausforderndsten Momente und ihre größten Durchbrüche zu begleiten. Mein Ansatz wurzelt in Wärme, Neugier und dem Verständnis, dass Heilung in Beziehungen geschieht – mit uns selbst, mit der Natur und miteinander.",
     "philosophy": {
       "title": "Meine Philosophie",
@@ -81,7 +81,8 @@
       "message": "Was führt Sie heute hierher?",
       "messagePlaceholder": "Teilen Sie so viel oder so wenig, wie es sich richtig anfühlt. Es gibt keinen Druck – das ist Ihr Raum.",
       "submit": "Senden Sie Ihre Nachricht",
-      "successMessage": "Vielen Dank, {name}! Ihre Nachricht wurde empfangen.\n\nHinweis: Dies ist ein Demo-Formular. Es wurde keine tatsächliche Nachricht gesendet."
+      "successMessage": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Ich werde innerhalb von 24-48 Stunden antworten.",
+      "errorMessage": "Hoppla! Etwas ist schief gelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie mich direkt per E-Mail."
     },
     "other": {
       "title": "Weitere Kontaktmöglichkeiten",
@@ -89,7 +90,7 @@
       "phone": "Telefon:",
       "location": "Standort:",
       "hours": "Öffnungszeiten:",
-      "emailValue": "hallo@angela-steffan.de",
+      "emailValue": "hallo@---.de",
       "phoneValue": "(555) 123-4567",
       "locationValue": "Serene Wellness Center, Naturweg 123, Suite 200",
       "hoursValue": "Dienstag - Samstag, 9:00 - 18:00 Uhr",
@@ -97,6 +98,6 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Angela Steffan. Alle Rechte vorbehalten."
+    "copyright": "© 2025 ---. Alle Rechte vorbehalten."
   }
 }
