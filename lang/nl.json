@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over Mij",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Begin Uw Reis naar Welzijn",
+      "subtitle": "Een veilige, verzorgende ruimte voor genezing, groei en zelfontdekking door natuurlijke therapieën en compassievolle begeleiding.",
+      "cta": "Ontdek Uw Pad"
+    },
+    "welcome": {
+      "title": "Welkom in een Ruimte van Genezing",
+      "intro1": "Het leven kan overweldigend aanvoelen. Of u nu omgaat met stress, op zoek bent naar dieper zelfbegrip, of verlangt naar innerlijke vrede – u verdient ondersteuning op uw reis. Hier combineren we evidence-based therapeutische benaderingen met de zachte wijsheid van natuurlijke genezing.",
+      "intro2": "Door compassievol luisteren en holistische praktijken werken we samen om uw innerlijke kracht te ontdekken, emoties te verwerken en blijvende verandering te creëren die uw hele zelf eert – geest, lichaam en ziel."
+    },
+    "approach": {
+      "title": "Onze Benadering",
+      "intro": "Ieders pad is uniek. Onze therapeutische benadering integreert:",
+      "items": [
+        "Mindfulness-gebaseerde praktijken voor tegenwoordigheidsbewustzijn",
+        "Natuur-geïnformeerde therapieën die u verbinden met uw natuurlijke ritmes",
+        "Reflectieve dialoog om uw innerlijke landschap te verkennen",
+        "Somatische technieken om de wijsheid van uw lichaam te eren",
+        "Gepersonaliseerde strategieën voor duurzaam welzijn"
+      ],
+      "cta": "Zet de Eerste Stap"
+    }
+  },
+  "about": {
+    "title": "Over Uw Therapeut",
+    "intro1": "Hallo, en welkom. Ik ben zo blij dat u hier bent. Mijn reis naar therapie begon met mijn eigen genezingspad en een diep geloof dat iedereen het verdient zich compleet, begrepen en in vrede met zichzelf te voelen.",
+    "intro2": "Al meer dan tien jaar heb ik het voorrecht om mensen te begeleiden door hun meest uitdagende momenten en hun grootste doorbraken. Mijn benadering is geworteld in warmte, nieuwsgierigheid en het begrip dat genezing gebeurt in relatie – met onszelf, met de natuur en met elkaar.",
+    "philosophy": {
+      "title": "Mijn Filosofie",
+      "text1": "Ik geloof dat u de expert bent over uw eigen leven. Mijn rol is niet om u te repareren – want u bent niet kapot – maar om een compassievolle, niet-oordelende ruimte te bieden waar u kunt verkennen, groeien en uw aangeboren vermogen tot genezing kunt herontdekken.",
+      "text2": "De natuur is altijd mijn grootste leraar geweest. De cycli van seizoenen, de veerkracht van bomen, het geduld van rivieren – deze natuurlijke ritmes herinneren ons eraan dat genezing niet lineair is. Het ontvouwt zich in zijn eigen tijd, met zachtheid en gratie."
+    },
+    "training": {
+      "title": "Opleiding & Specialisaties",
+      "items": [
+        "Gediplomeerd Klinisch Therapeut (LCT) - Staatscertificering",
+        "Master's Degree in Counseling Psychology",
+        "Gecertificeerd in Mindfulness-Based Stress Reduction (MBSR)",
+        "Training in Ecotherapie en Natuur-gebaseerde Interventies",
+        "Somatic Experiencing Practitioner (SEP)",
+        "Trauma-Informed Care Specialist"
+      ]
+    },
+    "specializations": {
+      "title": "Waar Ik Mee Werk",
+      "intro": "Ik ben gespecialiseerd in het ondersteunen van individuen die het volgende ervaren:",
+      "items": [
+        "Angst, stress en overweldiging",
+        "Depressie en lage motivatie",
+        "Levensovergangen en identiteitsverkenning",
+        "Burn-out en werkstress",
+        "Relatie-uitdagingen en grenzen",
+        "Zelfbeeld en persoonlijke groei",
+        "Rouw, verlies en het verwerken van verandering"
+      ]
+    },
+    "personal": {
+      "title": "Buiten het Kantoor",
+      "text": "Wanneer ik niet in sessie ben, vindt u mij wandelend over bospaden, werkend in mijn tuin, yoga beoefenend, of opgekruld met een goed boek en kruidenthee. Ik geloof erin om te praktiseren wat ik deel – verbonden blijven met de natuur, mijn lichaam bewegen en rust eren als een heilige praktijk."
+    },
+    "cta": "Neem Contact Met Mij Op"
+  },
+  "contact": {
+    "title": "Laten We Verbinden",
+    "intro1": "De eerste stap naar therapie zetten vereist moed, en ik eer u ervoor dat u hier bent. Of u nu klaar bent om te beginnen of simpelweg opties verkent – ik ben hier om eventuele vragen te beantwoorden die u zou kunnen hebben.",
+    "intro2": "Neem contact op via het onderstaande formulier, en ik zal binnen 24-48 uur reageren. Alle vragen zijn volledig vertrouwelijk.",
+    "form": {
+      "name": "Uw Naam",
+      "namePlaceholder": "Hoe mag ik u noemen?",
+      "email": "E-mailadres",
+      "emailPlaceholder": "uw.email@voorbeeld.nl",
+      "phone": "Telefoonnummer (Optioneel)",
+      "phonePlaceholder": "Voor terugbellen indien gewenst",
+      "message": "Wat brengt u vandaag hier?",
+      "messagePlaceholder": "Deel zoveel of zo weinig als comfortabel voelt. Er is geen druk – dit is uw ruimte.",
+      "submit": "Verstuur Uw Bericht",
+      "successMessage": "Dank u, {name}! Uw bericht is ontvangen.\n\nOpmerking: Dit is een demo-formulier. Er is geen daadwerkelijk bericht verzonden."
+    },
+    "other": {
+      "title": "Andere Manieren om Contact Op Te Nemen",
+      "email": "E-mail:",
+      "phone": "Telefoon:",
+      "location": "Locatie:",
+      "hours": "Openingstijden:",
+      "emailValue": "hallo@uwtherapie.nl",
+      "phoneValue": "(555) 123-4567",
+      "locationValue": "Serene Wellness Center, Natuurweg 123, Suite 200",
+      "hoursValue": "Dinsdag - Zaterdag, 9:00 - 18:00 uur",
+      "consultation": "Initiële consultaties worden kosteloos aangeboden. Laten we samen verkennen of we goed bij uw genezingsreis passen."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Mijn Portfolio. Alle rechten voorbehouden."
+  }
+}

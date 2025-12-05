@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,52 +8,59 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About Me</a></li>
+                <li><a href="contact.html" class="active" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="de">DE</button>
+                <span class="lang-separator">|</span>
+                <button class="lang-btn" data-lang="nl">NL</button>
+            </div>
+        </div>
     </nav>
     
     <main>
         <section class="content">
-            <h1>Let's Connect</h1>
-            <p>Taking the first step toward therapy takes courage, and I honor you for being here. Whether you're ready to begin or simply exploring options, I'm here to answer any questions you might have.</p>
+            <h1 data-i18n="contact.title">Let's Connect</h1>
+            <p data-i18n="contact.intro1">Taking the first step toward therapy takes courage, and I honor you for being here. Whether you're ready to begin or simply exploring options, I'm here to answer any questions you might have.</p>
             
-            <p>Reach out using the form below, and I'll respond within 24-48 hours. All inquiries are completely confidential.</p>
+            <p data-i18n="contact.intro2">Reach out using the form below, and I'll respond within 24-48 hours. All inquiries are completely confidential.</p>
             
             <form id="contactForm">
                 <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="How should I call you?" required>
+                    <label for="name" data-i18n="contact.form.name">Your Name</label>
+                    <input type="text" id="name" name="name" data-i18n-placeholder="contact.form.namePlaceholder" placeholder="How should I call you?" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    <label for="email" data-i18n="contact.form.email">Email Address</label>
+                    <input type="email" id="email" name="email" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="your.email@example.com" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="phone">Phone Number (Optional)</label>
-                    <input type="tel" id="phone" name="phone" placeholder="For callback if preferred">
+                    <label for="phone" data-i18n="contact.form.phone">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone" data-i18n-placeholder="contact.form.phonePlaceholder" placeholder="For callback if preferred">
                 </div>
                 
                 <div class="form-group">
-                    <label for="message">What brings you here today?</label>
-                    <textarea id="message" name="message" rows="6" placeholder="Share as much or as little as feels comfortable. There's no pressure—this is your space." required></textarea>
+                    <label for="message" data-i18n="contact.form.message">What brings you here today?</label>
+                    <textarea id="message" name="message" rows="6" data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Share as much or as little as feels comfortable. There's no pressure—this is your space." required></textarea>
                 </div>
                 
-                <button type="submit" class="btn">Send Your Message</button>
+                <button type="submit" class="btn" data-i18n="contact.form.submit">Send Your Message</button>
             </form>
             
             <div style="margin-top: 4rem; padding-top: 3rem; border-top: 1px solid rgba(139, 157, 131, 0.2);">
-                <h2>Other Ways to Connect</h2>
-                <p><strong>📧 Email:</strong> hello@yourtherapy.com</p>
-                <p><strong>📞 Phone:</strong> (555) 123-4567</p>
-                <p><strong>🏢 Location:</strong> Serene Wellness Center, 123 Nature Way, Suite 200</p>
-                <p><strong>⏰ Hours:</strong> Tuesday - Saturday, 9:00 AM - 6:00 PM</p>
+                <h2 data-i18n="contact.other.title">Other Ways to Connect</h2>
+                <p><strong>📧 <span data-i18n="contact.other.email">Email:</span></strong> <span data-i18n="contact.other.emailValue">hello@yourtherapy.com</span></p>
+                <p><strong>📞 <span data-i18n="contact.other.phone">Phone:</span></strong> <span data-i18n="contact.other.phoneValue">(555) 123-4567</span></p>
+                <p><strong>🏢 <span data-i18n="contact.other.location">Location:</span></strong> <span data-i18n="contact.other.locationValue">Serene Wellness Center, 123 Nature Way, Suite 200</span></p>
+                <p><strong>⏰ <span data-i18n="contact.other.hours">Hours:</span></strong> <span data-i18n="contact.other.hoursValue">Tuesday - Saturday, 9:00 AM - 6:00 PM</span></p>
                 
-                <p style="margin-top: 2rem; font-style: italic; color: var(--text-light);">
+                <p style="margin-top: 2rem; font-style: italic; color: var(--text-light);" data-i18n="contact.other.consultation">
                     Initial consultations are offered at no cost. Let's explore together if we're a good fit for your healing journey.
                 </p>
             </div>
@@ -61,7 +68,7 @@
     </main>
     
     <footer>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p data-i18n="footer.copyright">&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
     
     <script src="js/script.js"></script>

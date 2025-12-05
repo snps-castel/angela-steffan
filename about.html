@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,58 +8,65 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="active">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" class="active" data-i18n="nav.about">About Me</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="de">DE</button>
+                <span class="lang-separator">|</span>
+                <button class="lang-btn" data-lang="nl">NL</button>
+            </div>
+        </div>
     </nav>
     
     <main>
         <section class="content">
-            <h1>About Your Therapist</h1>
-            <p>Hello, and welcome. I'm so glad you're here. My journey into therapy began with my own path of healing and a deep belief that everyone deserves to feel whole, understood, and at peace with themselves.</p>
+            <h1 data-i18n="about.title">About Your Therapist</h1>
+            <p data-i18n="about.intro1">Hello, and welcome. I'm so glad you're here. My journey into therapy began with my own path of healing and a deep belief that everyone deserves to feel whole, understood, and at peace with themselves.</p>
             
-            <p>For over a decade, I've had the privilege of walking alongside individuals through their most challenging moments and their greatest breakthroughs. My approach is rooted in warmth, curiosity, and the understanding that healing happens in relationship—with ourselves, with nature, and with each other.</p>
+            <p data-i18n="about.intro2">For over a decade, I've had the privilege of walking alongside individuals through their most challenging moments and their greatest breakthroughs. My approach is rooted in warmth, curiosity, and the understanding that healing happens in relationship—with ourselves, with nature, and with each other.</p>
             
-            <h2>My Philosophy</h2>
-            <p>I believe that you are the expert on your own life. My role is not to fix you—because you're not broken—but to provide a compassionate, non-judgmental space where you can explore, grow, and rediscover your innate capacity for healing.</p>
+            <h2 data-i18n="about.philosophy.title">My Philosophy</h2>
+            <p data-i18n="about.philosophy.text1">I believe that you are the expert on your own life. My role is not to fix you—because you're not broken—but to provide a compassionate, non-judgmental space where you can explore, grow, and rediscover your innate capacity for healing.</p>
             
-            <p>Nature has always been my greatest teacher. The cycles of seasons, the resilience of trees, the patience of rivers—these natural rhythms remind us that healing is not linear. It unfolds in its own time, with gentleness and grace.</p>
+            <p data-i18n="about.philosophy.text2">Nature has always been my greatest teacher. The cycles of seasons, the resilience of trees, the patience of rivers—these natural rhythms remind us that healing is not linear. It unfolds in its own time, with gentleness and grace.</p>
             
-            <h2>Training & Specializations</h2>
-            <ul>
-                <li>Licensed Clinical Therapist (LCT) - State Certified</li>
-                <li>Master's Degree in Counseling Psychology</li>
-                <li>Certified in Mindfulness-Based Stress Reduction (MBSR)</li>
-                <li>Training in Ecotherapy and Nature-Based Interventions</li>
-                <li>Somatic Experiencing Practitioner (SEP)</li>
-                <li>Trauma-Informed Care Specialist</li>
+            <h2 data-i18n="about.training.title">Training & Specializations</h2>
+            <ul id="training-list">
+                <li data-i18n="about.training.items.0">Licensed Clinical Therapist (LCT) - State Certified</li>
+                <li data-i18n="about.training.items.1">Master's Degree in Counseling Psychology</li>
+                <li data-i18n="about.training.items.2">Certified in Mindfulness-Based Stress Reduction (MBSR)</li>
+                <li data-i18n="about.training.items.3">Training in Ecotherapy and Nature-Based Interventions</li>
+                <li data-i18n="about.training.items.4">Somatic Experiencing Practitioner (SEP)</li>
+                <li data-i18n="about.training.items.5">Trauma-Informed Care Specialist</li>
             </ul>
             
-            <h2>What I Work With</h2>
-            <p>I specialize in supporting individuals experiencing:</p>
-            <ul>
-                <li>Anxiety, stress, and overwhelm</li>
-                <li>Depression and low motivation</li>
-                <li>Life transitions and identity exploration</li>
-                <li>Burnout and workplace stress</li>
-                <li>Relationship challenges and boundaries</li>
-                <li>Self-esteem and personal growth</li>
-                <li>Grief, loss, and processing change</li>
+            <h2 data-i18n="about.specializations.title">What I Work With</h2>
+            <p data-i18n="about.specializations.intro">I specialize in supporting individuals experiencing:</p>
+            <ul id="specializations-list">
+                <li data-i18n="about.specializations.items.0">Anxiety, stress, and overwhelm</li>
+                <li data-i18n="about.specializations.items.1">Depression and low motivation</li>
+                <li data-i18n="about.specializations.items.2">Life transitions and identity exploration</li>
+                <li data-i18n="about.specializations.items.3">Burnout and workplace stress</li>
+                <li data-i18n="about.specializations.items.4">Relationship challenges and boundaries</li>
+                <li data-i18n="about.specializations.items.5">Self-esteem and personal growth</li>
+                <li data-i18n="about.specializations.items.6">Grief, loss, and processing change</li>
             </ul>
             
-            <h2>Beyond the Office</h2>
-            <p>When I'm not in session, you'll find me hiking forest trails, tending to my garden, practicing yoga, or curled up with a good book and herbal tea. I believe in practicing what I share—staying connected to nature, moving my body, and honoring rest as a sacred practice.</p>
+            <h2 data-i18n="about.personal.title">Beyond the Office</h2>
+            <p data-i18n="about.personal.text">When I'm not in session, you'll find me hiking forest trails, tending to my garden, practicing yoga, or curled up with a good book and herbal tea. I believe in practicing what I share—staying connected to nature, moving my body, and honoring rest as a sacred practice.</p>
             
             <p style="text-align: center; margin-top: 3rem;">
-                <a href="contact.html" class="btn">Connect With Me</a>
+                <a href="contact.html" class="btn" data-i18n="about.cta">Connect With Me</a>
             </p>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p data-i18n="footer.copyright">&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
     
     <script src="js/script.js"></script>
