@@ -7,7 +7,7 @@
   "home": {
     "hero": {
       "title": "Beginnen Sie Ihre Reise zum Wohlbefinden",
-      "subtitle": "Ein sicherer, pflegender Raum für Heilung, Wachstum und Selbstfindung durch natürliche Therapien und einfühlsame Begleitung.",
+      "subtitle": "Ein sicherer, pflegender Raum für Heilung, Wachstum und Selbstfindung durch natürliche Therapien und einfühlsame Begleitung mit Angela Steffan.",
       "cta": "Entdecken Sie Ihren Weg"
     },
     "welcome": {
@@ -29,8 +29,8 @@
     }
   },
   "about": {
-    "title": "Über Ihre Therapeutin",
-    "intro1": "Hallo und willkommen. Ich freue mich sehr, dass Sie hier sind. Meine Reise in die Therapie begann mit meinem eigenen Heilungsweg und einer tiefen Überzeugung, dass jeder es verdient, sich ganz, verstanden und im Frieden mit sich selbst zu fühlen.",
+    "title": "Über Angela Steffan",
+    "intro1": "Hallo und willkommen. Ich freue mich sehr, dass Sie hier sind. Mein Name ist Angela Steffan, und meine Reise in die Therapie begann mit meinem eigenen Heilungsweg und einer tiefen Überzeugung, dass jeder es verdient, sich ganz, verstanden und im Frieden mit sich selbst zu fühlen.",
     "intro2": "Seit über einem Jahrzehnt habe ich das Privileg, Menschen durch ihre herausforderndsten Momente und ihre größten Durchbrüche zu begleiten. Mein Ansatz wurzelt in Wärme, Neugier und dem Verständnis, dass Heilung in Beziehungen geschieht – mit uns selbst, mit der Natur und miteinander.",
     "philosophy": {
       "title": "Meine Philosophie",
@@ -89,7 +89,7 @@
       "phone": "Telefon:",
       "location": "Standort:",
       "hours": "Öffnungszeiten:",
-      "emailValue": "hallo@ihretherapie.de",
+      "emailValue": "hallo@angela-steffan.de",
       "phoneValue": "(555) 123-4567",
       "locationValue": "Serene Wellness Center, Naturweg 123, Suite 200",
       "hoursValue": "Dienstag - Samstag, 9:00 - 18:00 Uhr",
@@ -97,6 +97,6 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Mein Portfolio. Alle Rechte vorbehalten."
+    "copyright": "© 2025 Angela Steffan. Alle Rechte vorbehalten."
   }
 }

@@ -8,6 +8,42 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load initial language
     loadLanguage(currentLang);
     
+    // Hamburger menu functionality
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('nav ul');
+    const langSwitcher = document.querySelector('.language-switcher');
+    const nav = document.querySelector('nav');
+    const navLinks = document.querySelectorAll('nav ul li a');
+    
+    if (hamburger) {
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            langSwitcher.classList.toggle('active');
+            nav.classList.toggle('menu-open');
+        });
+        
+        // Close menu when clicking on a link
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                langSwitcher.classList.remove('active');
+                nav.classList.remove('menu-open');
+            });
+        });
+        
+        // Close menu when clicking overlay
+        nav.addEventListener('click', function(e) {
+            if (e.target === nav && nav.classList.contains('menu-open')) {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                langSwitcher.classList.remove('active');
+                nav.classList.remove('menu-open');
+            }
+        });
+    }
+    
     // Language switcher functionality
     const langButtons = document.querySelectorAll('.lang-btn');
     const htmlTag = document.documentElement;

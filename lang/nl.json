@@ -7,7 +7,7 @@
   "home": {
     "hero": {
       "title": "Begin Uw Reis naar Welzijn",
-      "subtitle": "Een veilige, verzorgende ruimte voor genezing, groei en zelfontdekking door natuurlijke therapieën en compassievolle begeleiding.",
+      "subtitle": "Een veilige, verzorgende ruimte voor genezing, groei en zelfontdekking door natuurlijke therapieën en compassievolle begeleiding met Angela Steffan.",
       "cta": "Ontdek Uw Pad"
     },
     "welcome": {
@@ -29,8 +29,8 @@
     }
   },
   "about": {
-    "title": "Over Uw Therapeut",
-    "intro1": "Hallo, en welkom. Ik ben zo blij dat u hier bent. Mijn reis naar therapie begon met mijn eigen genezingspad en een diep geloof dat iedereen het verdient zich compleet, begrepen en in vrede met zichzelf te voelen.",
+    "title": "Over Angela Steffan",
+    "intro1": "Hallo, en welkom. Ik ben zo blij dat u hier bent. Mijn naam is Angela Steffan, en mijn reis naar therapie begon met mijn eigen genezingspad en een diep geloof dat iedereen het verdient zich compleet, begrepen en in vrede met zichzelf te voelen.",
     "intro2": "Al meer dan tien jaar heb ik het voorrecht om mensen te begeleiden door hun meest uitdagende momenten en hun grootste doorbraken. Mijn benadering is geworteld in warmte, nieuwsgierigheid en het begrip dat genezing gebeurt in relatie – met onszelf, met de natuur en met elkaar.",
     "philosophy": {
       "title": "Mijn Filosofie",
@@ -89,7 +89,7 @@
       "phone": "Telefoon:",
       "location": "Locatie:",
       "hours": "Openingstijden:",
-      "emailValue": "hallo@uwtherapie.nl",
+      "emailValue": "hallo@angela-steffan.nl",
       "phoneValue": "(555) 123-4567",
       "locationValue": "Serene Wellness Center, Natuurweg 123, Suite 200",
       "hoursValue": "Dinsdag - Zaterdag, 9:00 - 18:00 uur",
@@ -97,6 +97,6 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Mijn Portfolio. Alle rechten voorbehouden."
+    "copyright": "© 2025 Angela Steffan. Alle rechten voorbehouden."
   }
 }
