@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Portfolio</title>
+    <title>Angela Steffan - Therapy & Wellness</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,6 +17,8 @@
             <ul>
                 <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
                 <li><a href="about.html" data-i18n="nav.about">About Me</a></li>
+                <li><a href="psychotherapy.html" data-i18n="nav.psychotherapy">Psychotherapy</a></li>
+                <li><a href="supervision.html" data-i18n="nav.supervision">Systemic Supervision</a></li>
                 <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
             <div class="language-switcher">
@@ -28,36 +30,90 @@
     </nav>
     
     <main>
-        <section class="hero">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
             <div class="hero-image-placeholder">
-                <img src="images/path.avif" alt="Peaceful natural scenery" class="hero-image">
+                <img src="images/door.jpg" alt="Peaceful natural scenery" class="hero-image">
             </div>
             <div class="hero-content">
-                <h1 data-i18n="home.hero.title">Begin Your Journey to Wellness</h1>
-                <p data-i18n="home.hero.subtitle">A safe, nurturing space for healing, growth, and self-discovery through natural therapies and compassionate guidance.</p>
-                <a href="about.html" class="btn" data-i18n="home.hero.cta">Discover Your Path</a>
+                <h1 data-i18n="home.hero.title">It's Open</h1>
+                <!-- <p data-i18n="home.hero.subtitle">Praxis für Psychotherapie & Systemische Supervision</p>
+                <p data-i18n="home.hero.description">Dr. Angela Steffan - Diplom-Psychologin</p> -->
             </div>
         </section>
         
-        <section class="content">
-            <h2 data-i18n="home.welcome.title">Welcome to a Space of Healing</h2>
-            <p data-i18n="home.welcome.intro1">Life can feel overwhelming. Whether you're navigating stress, seeking deeper self-understanding, or yearning for inner peace, you deserve support on your journey. Here, we blend evidence-based therapeutic approaches with the gentle wisdom of natural healing.</p>
-            
-            <p data-i18n="home.welcome.intro2">Through compassionate listening and holistic practices, we'll work together to uncover your inner strength, process emotions, and create lasting change that honors your whole self—mind, body, and spirit.</p>
-            
-            <h2 data-i18n="home.approach.title">Our Approach</h2>
-            <p data-i18n="home.approach.intro">Every person's path is unique. Our therapeutic approach integrates:</p>
-            <ul id="approach-list">
-                <li data-i18n="home.approach.items.0">Mindfulness-based practices for present-moment awareness</li>
-                <li data-i18n="home.approach.items.1">Nature-informed therapies that reconnect you with your natural rhythms</li>
-                <li data-i18n="home.approach.items.2">Reflective dialogue to explore your inner landscape</li>
-                <li data-i18n="home.approach.items.3">Somatic techniques to honor the wisdom of your body</li>
-                <li data-i18n="home.approach.items.4">Personalized strategies for sustainable well-being</li>
-            </ul>
-            
-            <p style="text-align: center; margin-top: 3rem;">
-                <a href="contact.html" class="btn" data-i18n="home.approach.cta">Take the First Step</a>
-            </p>
+        <!-- About Preview Section -->
+        <section id="about" class="content preview-section">
+            <div class="preview-image">
+                <a href="about.html">
+                    <img src="images/portrait.jpg" alt="Angela Steffan">
+                </a>
+            </div>
+            <div class="preview-text">
+                <h2 data-i18n="home.hero.subtitle">Praxis für Psychotherapie & Systemische Supervision</h2>
+                <h3 data-i18n="home.hero.description">About Your Therapist</h3>
+                <!-- <p data-i18n="about.intro1">Hello, and welcome. I'm so glad you're here. My journey into therapy began with my own path of healing and a deep belief that everyone deserves to feel whole, understood, and at peace with themselves.</p> -->
+                <a style="align-self: center;" href="about.html" class="btn" data-i18n="about.readMore">Learn More About Me</a>
+            </div>
+        </section>
+        
+        <!-- Psychotherapy Preview Section -->
+        <section id="psychotherapy" class="content preview-section preview-section-reverse">
+            <div class="preview-image">
+                <a href="psychotherapy.html">
+                    <img src="images/psychotherapy.jpg" alt="Psychotherapy services">
+                </a>
+            </div>
+            <div class="preview-text">
+                <h2 data-i18n="psychotherapy.title">Psychotherapy Services</h2>
+                <p data-i18n="psychotherapy.intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a style="align-self: center;" href="psychotherapy.html" class="btn" data-i18n="psychotherapy.readMore">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Supervision Preview Section -->
+        <section id="supervision" class="content preview-section">
+            <div class="preview-image">
+                <a href="supervision.html">
+                    <img src="images/supervision2.jpg" alt="Systemic supervision">
+                </a>
+            </div>
+            <div class="preview-text">
+                <h2 data-i18n="supervision.title">Systemic Supervision</h2>
+                <p data-i18n="supervision.intro">Professional development through systemic supervision. Supporting therapists, counselors, and helping professionals in their growth and reflective practice.</p>
+                <a style="align-self: center;" href="supervision.html" class="btn" data-i18n="supervision.readMore">Learn More</a>
+            </div>
+        </section>
+        
+<!-- 
+        <section id="contact" class="content preview-section preview-section-reverse">
+            <div class="preview-image">
+                <img src="images/path.jpg" alt="Connect with us">
+            </div>
+            <div class="preview-text">
+                <h2 data-i18n="contact.title">Let's Connect</h2>
+                <p data-i18n="contact.intro1">Taking the first step toward therapy takes courage, and I honor you for being here. Whether you're ready to begin or simply exploring options, I'm here to answer any questions you might have.</p>
+                <a href="contact.html" class="btn" data-i18n="contact.getInTouch">Get In Touch</a>
+            </div>
+        </section> -->
+
+        <!-- Contact Summary -->
+        <section class="content contact-summary">
+            <div class="contact-summary-content">
+                <div class="contact-info-left">
+                    <h2 data-i18n="contact.other.title">Other Ways to Connect</h2>
+                    <div class="contact-details">
+                        <p>
+                            <strong><span data-i18n="contact.other.email">Email:</span></strong> <span data-i18n="contact.other.emailValue">hello@yourtherapy.com</span><br>
+                            <strong><span data-i18n="contact.other.location">Location:</span></strong> <span data-i18n="contact.other.locationValue">Serene Wellness Center, 123 Nature Way, Suite 200</span><br>
+                            <strong><span data-i18n="contact.other.hours">Hours:</span></strong> <span data-i18n="contact.other.hoursValue">Tuesday - Saturday, 9:00 AM - 6:00 PM</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-info-right">
+                    <a href="contact.html" class="btn btn-large" data-i18n="contact.fullForm">Contact Form</a>
+                </div>
+            </div>
         </section>
     </main>
     

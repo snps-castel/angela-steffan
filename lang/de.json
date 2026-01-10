@@ -2,75 +2,72 @@
   "nav": {
     "home": "Home",
     "about": "Über Mich",
+    "supervision": "Systemische Supervision",
+    "psychotherapy": "Psychotherapie",
     "contact": "Kontakt"
   },
   "home": {
     "hero": {
-      "title": "Beginnen Sie Ihre Reise zum Wohlbefinden",
-      "subtitle": "Ein sicherer, pflegender Raum für Heilung, Wachstum und Selbstfindung durch natürliche Therapien und einfühlsame Begleitung mit ---.",
-      "cta": "Entdecken Sie Ihren Weg"
-    },
-    "welcome": {
-      "title": "Willkommen in einem Raum der Heilung",
-      "intro1": "Das Leben kann überwältigend sein. Ob Sie mit Stress umgehen, ein tieferes Selbstverständnis suchen oder sich nach innerem Frieden sehnen – Sie verdienen Unterstützung auf Ihrer Reise. Hier verbinden wir evidenzbasierte therapeutische Ansätze mit der sanften Weisheit der natürlichen Heilung.",
-      "intro2": "Durch einfühlsames Zuhören und ganzheitliche Praktiken arbeiten wir gemeinsam daran, Ihre innere Stärke aufzudecken, Emotionen zu verarbeiten und dauerhafte Veränderungen zu schaffen, die Ihr ganzes Selbst ehren – Geist, Körper und Seele."
-    },
-    "approach": {
-      "title": "Unser Ansatz",
-      "intro": "Jeder Mensch hat seinen eigenen Weg. Unser therapeutischer Ansatz integriert:",
-      "items": [
-        "Achtsamkeitsbasierte Praktiken für Gegenwartsbewusstsein",
-        "Naturinformierte Therapien, die Sie mit Ihren natürlichen Rhythmen verbinden",
-        "Reflektierender Dialog zur Erkundung Ihrer inneren Landschaft",
-        "Somatische Techniken, um die Weisheit Ihres Körpers zu ehren",
-        "Personalisierte Strategien für nachhaltiges Wohlbefinden"
-      ],
-      "cta": "Machen Sie den ersten Schritt"
+      "title": "Es ist offen",
+      "subtitle": "Praxis für Psychotherapie & Systemische Supervision",
+      "description": "Dr. Angela Steffan - Diplom-Psychologin"
     }
   },
   "about": {
-    "title": "Über ---",
-    "intro1": "Hallo und willkommen. Ich freue mich sehr, dass Sie hier sind. Mein Name ist ---, und meine Reise in die Therapie begann mit meinem eigenen Heilungsweg und einer tiefen Überzeugung, dass jeder es verdient, sich ganz, verstanden und im Frieden mit sich selbst zu fühlen.",
-    "intro2": "Seit über einem Jahrzehnt habe ich das Privileg, Menschen durch ihre herausforderndsten Momente und ihre größten Durchbrüche zu begleiten. Mein Ansatz wurzelt in Wärme, Neugier und dem Verständnis, dass Heilung in Beziehungen geschieht – mit uns selbst, mit der Natur und miteinander.",
-    "philosophy": {
-      "title": "Meine Philosophie",
-      "text1": "Ich glaube, dass Sie der Experte für Ihr eigenes Leben sind. Meine Rolle ist es nicht, Sie zu reparieren – denn Sie sind nicht kaputt – sondern einen mitfühlenden, nicht-wertenden Raum zu bieten, in dem Sie erkunden, wachsen und Ihre angeborene Heilungsfähigkeit wiederentdecken können.",
-      "text2": "Die Natur war schon immer meine größte Lehrerin. Die Zyklen der Jahreszeiten, die Widerstandsfähigkeit der Bäume, die Geduld der Flüsse – diese natürlichen Rhythmen erinnern uns daran, dass Heilung nicht linear verläuft. Sie entfaltet sich in ihrer eigenen Zeit, mit Sanftheit und Anmut."
-    },
+    "title": "Über mich",
+    "intro1": "Angela Steffan, Jahrgang 1970, verheiratet, zwei Kinder",
+    "intro2": "Wenn ich nicht arbeite, mache ich vielleicht gerade Yoga, bin bei meiner Meditationsgruppe im eigenen seelischen Erforschen und innerem Verstehen unterwegs, auf Weiterbildung, in der Natur oder im Kontakt mit meinen Lieben.",
+    "readMore": "Mehr über mich erfahren",
     "training": {
-      "title": "Ausbildung & Spezialisierungen",
+      "title": "Meine berufliche Qualifikation",
       "items": [
-        "Lizenzierte Klinische Therapeutin (LCT) - Staatlich zertifiziert",
-        "Master-Abschluss in Beratungspsychologie",
-        "Zertifiziert in Achtsamkeitsbasierter Stressreduktion (MBSR)",
-        "Ausbildung in Ökotherapie und naturbasierten Interventionen",
-        "Somatic Experiencing Practitioner (SEP)",
-        "Spezialistin für traumainformierte Pflege"
+        "Studium der Psychologie",
+        "Promotion über Integration in der Psychotherapie",
+        "Tätigkeit in Forschung und Lehre Ausbildung zur Integrativen Gestalttherapeutin und Kunsttherapeutin",
+        "28 Jahre Tätigkeit in einer Fachklinik für Psychiatrie und Psychotherapie",
+        "Weiterbildung zur Systemischen Supervisorin",
+        "Erlaubnis zur Ausübung der Heilkunde auf dem Gebiet der Psychotherapie nach dem Heilpraktikergesetz"
       ]
     },
-    "specializations": {
-      "title": "Womit ich arbeite",
-      "intro": "Ich bin spezialisiert auf die Unterstützung von Menschen, die Folgendes erleben:",
+    "cta": "Anfragen"
+  },
+  "supervision": {
+    "title": "Systemische Supervision",
+    "intro": "Supervision bedeutet Überblick oder von oben betrachtet. Ziel ist es, Denk- und Handlungsmöglichkeiten zu erweitern. Sie dient ihrer persönlichen und beruflichen Weiterentwicklung, insbesondere der Auseinandersetzung mit ihrer eigenen beruflichen Identität im Kontext der realen Arbeitssituation.",
+    "readMore": "Mehr erfahren",
+    "intro2": "Systemisch bedeutet u.a., anzunehmen, dass es verschiedene Denkperspektiven gibt, dass in jedem Problem auch eine Lösung steckt, dass visuelle Darstellungen genutzt werden, um Muster und Dynamiken besser zu erkennen.",
+    "focus": {
+      "title": "Mein Angebot",
+      "intro": "Ich biete Einzelsupervision, Fallsupervision oder Teamsupervision für Menschen an, die Andere leiten, beraten, therapieren.",
       "items": [
-        "Angst, Stress und Überforderung",
-        "Depression und niedrige Motivation",
-        "Lebensübergänge und Identitätserkundung",
-        "Burnout und Arbeitsstress",
-        "Beziehungsherausforderungen und Grenzen",
-        "Selbstwertgefühl und persönliches Wachstum",
-        "Trauer, Verlust und Verarbeitung von Veränderungen"
+        "Einzelsupervision",
+        "Fallsupervision",
+        "Teamsupervision",
+        "Willkommen sind ebenfalls Menschen, die mit anderen Menschen leben, arbeiten, wohnen und ihr Zusammensein unter einer Fragestellung reflektieren möchten",
+        "Für Team- und Gruppensupervisionen komme ich im Umkreis von 30km auch zu Ihnen"
       ]
     },
-    "personal": {
-      "title": "Jenseits des Büros",
-      "text": "Wenn ich nicht in einer Sitzung bin, finden Sie mich auf Waldwegen beim Wandern, in meinem Garten, beim Yoga oder mit einem guten Buch und Kräutertee eingekuschelt. Ich glaube daran, das zu praktizieren, was ich teile – verbunden mit der Natur zu bleiben, meinen Körper zu bewegen und Ruhe als heilige Praxis zu ehren."
+    "cta": "Anfragen"
+  },
+  "psychotherapy": {
+    "title": "Psychotherapie",
+    "intro": "Psychotherapie bedeutet, mögliche Ursachen der belastenden, energieraubenden Probleme oder Symptome zu erkennen, diese anzunehmen und eine neue Perspektive einzunehmen.",
+    "readMore": "Mehr erfahren",
+    "services": {
+      "title": "Mein Ansatz",
+      "intro": "Mit verhaltenstherapeutischen Methoden helfe ich ihnen dabei, destruktive Denk- und Verhaltensmuster zu durchbrechen, ihre inneren Ressourcen zu aktivieren, um neue, gesunde Wege im Umgang mit Problemen und Symptomen zu entwickeln. Mein tiefenpsychologisch fundierter Erfahrungsschatz hilft beim Aufspüren und Verstehen innerer Konflikte und verdrängter Gefühle. Um innere Anteile und Beziehungsmuster sichtbar zu machen, nutze ich Techniken der Gestalttherapie. Systemische Methoden und Aufstellungsarbeit dienen der Klärung familiärer und sozialer Dynamiken.",
+      "item1": "Psychotherapie im Einzel- oder Gruppensetting",
+      "item2": "Diagnostisch orientiertes Erstgespräch",
+      "item3": "Individuell abgestimmt auf ihre Beschwerden, ihre aktuelle Lebenssituation und ihr persönliches Ziel",
+      "item4": "Professionelle, empathische Begleitung im gleichberechtigten Dialog"
     },
-    "cta": "Kontaktieren Sie mich"
+    "cta": "Anfragen"
   },
   "contact": {
-    "title": "Lassen Sie uns verbinden",
-    "intro1": "Den ersten Schritt zur Therapie zu machen erfordert Mut, und ich ehre Sie dafür, dass Sie hier sind. Ob Sie bereit sind zu beginnen oder einfach nur Optionen erkunden – ich bin hier, um alle Fragen zu beantworten, die Sie haben könnten.",
-    "intro2": "Kontaktieren Sie mich über das untenstehende Formular, und ich werde innerhalb von 24-48 Stunden antworten. Alle Anfragen sind absolut vertraulich.",
+    "title": "Kontaktformular",
+    "intro1": "Fragen und Terminvereinbarung gern per Mail",
+    "getInTouch": "Kontakt aufnehmen",
+    "fullForm": "Kontaktformular",
     "form": {
       "name": "Ihr Name",
       "namePlaceholder": "Wie soll ich Sie nennen?",
@@ -85,19 +82,20 @@
       "errorMessage": "Hoppla! Etwas ist schief gelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie mich direkt per E-Mail."
     },
     "other": {
-      "title": "Weitere Kontaktmöglichkeiten",
-      "email": "E-Mail:",
-      "phone": "Telefon:",
-      "location": "Standort:",
-      "hours": "Öffnungszeiten:",
-      "emailValue": "hallo@---.de",
-      "phoneValue": "(555) 123-4567",
-      "locationValue": "Serene Wellness Center, Naturweg 123, Suite 200",
-      "hoursValue": "Dienstag - Samstag, 9:00 - 18:00 Uhr",
-      "consultation": "Erstberatungen werden kostenlos angeboten. Lassen Sie uns gemeinsam erkunden, ob wir gut zu Ihrer Heilungsreise passen."
+      "title": "Kontaktmöglichkeiten und Honorar",
+      "email": "E-Mail",
+      "location": "Standort",
+      "hours": "Praxiszeiten",
+      "pricing": "Honorar",
+      "emailValue": "praxis.angelasteffan@outlook.de",
+      "phoneValue": "Auf Anfrage",
+      "locationValue": "Martinstr. 10-12, zweiter Stock, Aachen",
+      "hoursValue": "Donnerstag oder Freitag zwischen 15 und 20 Uhr",
+      "pricingValue": "Ausschließlich Selbstzahler €100/60 Min Einzelsitzung, €130/60 Min Team-/Gruppensitzung",
+      "consultation": "Mein Angebot richtet sich an Selbstzahler. Das Honorar beträgt 100 Euro pro 60 Minuten für Einzelsitzungen und 130 Euro pro 60 Minuten für Team- oder Gruppensitzungen."
     }
   },
   "footer": {
-    "copyright": "© 2025 ---. Alle Rechte vorbehalten."
+    "copyright": "© 2026 Dr. Angela Steffan. Alle Rechte vorbehalten."
   }
 }

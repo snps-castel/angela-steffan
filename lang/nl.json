@@ -2,102 +2,100 @@
   "nav": {
     "home": "Home",
     "about": "Over Mij",
+    "supervision": "Systemische Supervisie",
+    "psychotherapy": "Psychotherapie",
     "contact": "Contact"
   },
   "home": {
     "hero": {
-      "title": "Begin Uw Reis naar Welzijn",
-      "subtitle": "Een veilige, verzorgende ruimte voor genezing, groei en zelfontdekking door natuurlijke therapieën en compassievolle begeleiding met ---.",
-      "cta": "Ontdek Uw Pad"
-    },
-    "welcome": {
-      "title": "Welkom in een Ruimte van Genezing",
-      "intro1": "Het leven kan overweldigend aanvoelen. Of u nu omgaat met stress, op zoek bent naar dieper zelfbegrip, of verlangt naar innerlijke vrede – u verdient ondersteuning op uw reis. Hier combineren we evidence-based therapeutische benaderingen met de zachte wijsheid van natuurlijke genezing.",
-      "intro2": "Door compassievol luisteren en holistische praktijken werken we samen om uw innerlijke kracht te ontdekken, emoties te verwerken en blijvende verandering te creëren die uw hele zelf eert – geest, lichaam en ziel."
-    },
-    "approach": {
-      "title": "Onze Benadering",
-      "intro": "Ieders pad is uniek. Onze therapeutische benadering integreert:",
-      "items": [
-        "Mindfulness-gebaseerde praktijken voor tegenwoordigheidsbewustzijn",
-        "Natuur-geïnformeerde therapieën die u verbinden met uw natuurlijke ritmes",
-        "Reflectieve dialoog om uw innerlijke landschap te verkennen",
-        "Somatische technieken om de wijsheid van uw lichaam te eren",
-        "Gepersonaliseerde strategieën voor duurzaam welzijn"
-      ],
-      "cta": "Zet de Eerste Stap"
+      "title": "Het is open",
+      "subtitle": "Praktijk voor Psychotherapie & Systemische Supervisie",
+      "description": "Dr. Angela Steffan - Diplom-Psycholoog"
     }
   },
   "about": {
-    "title": "Over ---",
-    "intro1": "Hallo, en welkom. Ik ben zo blij dat u hier bent. Mijn naam is ---, en mijn reis naar therapie begon met mijn eigen genezingspad en een diep geloof dat iedereen het verdient zich compleet, begrepen en in vrede met zichzelf te voelen.",
-    "intro2": "Al meer dan tien jaar heb ik het voorrecht om mensen te begeleiden door hun meest uitdagende momenten en hun grootste doorbraken. Mijn benadering is geworteld in warmte, nieuwsgierigheid en het begrip dat genezing gebeurt in relatie – met onszelf, met de natuur en met elkaar.",
-    "philosophy": {
-      "title": "Mijn Filosofie",
-      "text1": "Ik geloof dat u de expert bent over uw eigen leven. Mijn rol is niet om u te repareren – want u bent niet kapot – maar om een compassievolle, niet-oordelende ruimte te bieden waar u kunt verkennen, groeien en uw aangeboren vermogen tot genezing kunt herontdekken.",
-      "text2": "De natuur is altijd mijn grootste leraar geweest. De cycli van seizoenen, de veerkracht van bomen, het geduld van rivieren – deze natuurlijke ritmes herinneren ons eraan dat genezing niet lineair is. Het ontvouwt zich in zijn eigen tijd, met zachtheid en gratie."
-    },
+    "title": "Over mij",
+    "intro1": "Angela Steffan, geboren 1970, getrouwd, twee kinderen",
+    "intro2": "Als ik niet werk, doe ik misschien yoga, ben ik bij mijn meditatiegroep bezig met innerlijk onderzoek en begrip, op bijscholing, in de natuur of in contact met mijn geliefden.",
+    "readMore": "Meer over mij",
     "training": {
-      "title": "Opleiding & Specialisaties",
+      "title": "Mijn professionele kwalificaties",
       "items": [
-        "Gediplomeerd Klinisch Therapeut (LCT) - Staatscertificering",
-        "Master's Degree in Counseling Psychology",
-        "Gecertificeerd in Mindfulness-Based Stress Reduction (MBSR)",
-        "Training in Ecotherapie en Natuur-gebaseerde Interventies",
-        "Somatic Experiencing Practitioner (SEP)",
-        "Trauma-Informed Care Specialist"
+        "Studie Psychologie",
+        "Promotie over Integratie in de Psychotherapie",
+        "Werkzaamheden in onderzoek en onderwijs. Opleiding tot Integratieve Gestalttherapie en Kunsttherapie",
+        "28 jaar werkzaam in een gespecialiseerde kliniek voor psychiatrie en psychotherapie",
+        "Bijscholing tot Systemisch Supervisor",
+        "Vergunning voor het uitoefenen van geneeskunde op het gebied van psychotherapie volgens de Heilpraktiker wet"
+      ]
+    }
+  },
+  "supervision": {
+    "title": "Systemische Supervisie",
+    "intro": "Supervisie betekent overzicht of van bovenaf bekeken. Het doel is om denk- en handelingsmogelijkheden uit te breiden. Het dient uw persoonlijke en professionele ontwikkeling, met name de confrontatie met uw eigen professionele identiteit in de context van de werkelijke werksituatie.",
+    "readMore": "Meer informatie",
+    "intro2": "Systemisch betekent onder andere aannemen dat er verschillende denkperspectieven zijn, dat in elk probleem ook een oplossing zit, dat visuele representaties worden gebruikt om patronen en dynamieken beter te herkennen.",
+    "focus": {
+      "title": "Mijn aanbod",
+      "intro": "Ik bied individuele supervisie, casussupervisie of teamsupervisie aan voor mensen die anderen leiden, adviseren, theraperen.",
+      "items": [
+        "Individuele supervisie",
+        "Casussupervisie",
+        "Teamsupervisie",
+        "Ook welkom zijn mensen die met andere mensen leven, werken, wonen en hun samenzijn onder een vraagstelling willen reflecteren",
+        "Voor team- en groepssupervisies kom ik in een straal van 30 km ook naar uw teams toe."
       ]
     },
-    "specializations": {
-      "title": "Waar Ik Mee Werk",
-      "intro": "Ik ben gespecialiseerd in het ondersteunen van individuen die het volgende ervaren:",
-      "items": [
-        "Angst, stress en overweldiging",
-        "Depressie en lage motivatie",
-        "Levensovergangen en identiteitsverkenning",
-        "Burn-out en werkstress",
-        "Relatie-uitdagingen en grenzen",
-        "Zelfbeeld en persoonlijke groei",
-        "Rouw, verlies en het verwerken van verandering"
-      ]
+    "cta": "Informatie over supervisie"
+  },
+  "psychotherapy": {
+    "title": "Psychotherapie",
+    "intro": "Psychotherapie betekent mogelijke oorzaken van belastende, energie-ontnemende problemen of symptomen herkennen, accepteren en een nieuw perspectief innemen.",
+    "readMore": "Meer informatie",
+    "services": {
+      "title": "Mijn aanpak",
+      "intro": "Met gedragstherapeutische methoden help ik u destructieve denk- en gedragspatronen te doorbreken, uw innerlijke bronnen te activeren om nieuwe, gezonde manieren te ontwikkelen in de omgang met problemen en symptomen. Mijn dieptepsychologisch gefundeerde ervaring helpt bij het opsporen en begrijpen van innerlijke conflicten en verdrongen gevoelens. Om innerlijke delen en relatiepatronen zichtbaar te maken, gebruik ik technieken van Gestalttherapie. Systemische methoden en opstellingswerk dienen ter verduidelijking van familiale en sociale dynamieken.",
+      "item1": "Psychotherapie in individuele of groepssetting",
+      "item2": "Diagnostisch georiënteerd eerste gesprek",
+      "item3": "Individueel afgestemd op uw klachten, uw huidige levenssituatie en uw persoonlijke doel",
+      "item4": "Professionele, empathische begeleiding in gelijkwaardige dialoog"
     },
-    "personal": {
-      "title": "Buiten het Kantoor",
-      "text": "Wanneer ik niet in sessie ben, vindt u mij wandelend over bospaden, werkend in mijn tuin, yoga beoefenend, of opgekruld met een goed boek en kruidenthee. Ik geloof erin om te praktiseren wat ik deel – verbonden blijven met de natuur, mijn lichaam bewegen en rust eren als een heilige praktijk."
-    },
-    "cta": "Neem Contact Met Mij Op"
+    "cta": "Afspraak maken"
   },
   "contact": {
-    "title": "Laten We Verbinden",
-    "intro1": "De eerste stap naar therapie zetten vereist moed, en ik eer u ervoor dat u hier bent. Of u nu klaar bent om te beginnen of simpelweg opties verkent – ik ben hier om eventuele vragen te beantwoorden die u zou kunnen hebben.",
-    "intro2": "Neem contact op via het onderstaande formulier, en ik zal binnen 24-48 uur reageren. Alle vragen zijn volledig vertrouwelijk.",
+    "title": "Afspraak maken",
+    "intro1": "Vragen en afspraken graag per mail",
+    "getInTouch": "Neem contact op",
+    "fullForm": "Contactformulier",
+    "intro2": "Ik kom binnen een straal van 30 km van Aken ook naar uw teams of groepen.",
     "form": {
-      "name": "Uw Naam",
-      "namePlaceholder": "Hoe mag ik u noemen?",
+      "name": "Uw naam",
+      "namePlaceholder": "Hoe moet ik u noemen?",
       "email": "E-mailadres",
       "emailPlaceholder": "uw.email@voorbeeld.nl",
-      "phone": "Telefoonnummer (Optioneel)",
+      "phone": "Telefoonnummer (optioneel)",
       "phonePlaceholder": "Voor terugbellen indien gewenst",
-      "message": "Wat brengt u vandaag hier?",
-      "messagePlaceholder": "Deel zoveel of zo weinig als comfortabel voelt. Er is geen druk – dit is uw ruimte.",
-      "submit": "Verstuur Uw Bericht",
-      "successMessage": "Dank u! Uw bericht is succesvol verzonden. Ik zal binnen 24-48 uur reageren.",
-      "errorMessage": "Oeps! Er is iets misgegaan. Probeer het opnieuw of neem direct contact met mij op via e-mail."
+      "message": "Wat brengt u hier vandaag?",
+      "messagePlaceholder": "Deel zoveel of zo weinig als goed voelt. Er is geen druk – dit is uw ruimte.",
+      "submit": "Verstuur uw bericht",
+      "successMessage": "Dank u wel! Uw bericht is succesvol verzonden. Ik zal binnen 24-48 uur reageren.",
+      "errorMessage": "Oeps! Er is iets misgegaan. Probeer het opnieuw of neem rechtstreeks contact met mij op via e-mail."
     },
     "other": {
-      "title": "Andere Manieren om Contact Op Te Nemen",
-      "email": "E-mail:",
-      "phone": "Telefoon:",
-      "location": "Locatie:",
-      "hours": "Openingstijden:",
-      "emailValue": "hallo@---.nl",
-      "phoneValue": "(555) 123-4567",
-      "locationValue": "Serene Wellness Center, Natuurweg 123, Suite 200",
-      "hoursValue": "Dinsdag - Zaterdag, 9:00 - 18:00 uur",
-      "consultation": "Initiële consultaties worden kosteloos aangeboden. Laten we samen verkennen of we goed bij uw genezingsreis passen."
+      "title": "Andere contactmogelijkheden",
+      "email": "E-mail",
+      "location": "Locatie",
+      "hours": "Praktijktijden",
+      "pricing": "Honorarium",
+      "emailValue": "praxis.angelasteffan@outlook.de",
+      "phoneValue": "Op aanvraag",
+      "locationValue": "Martinstr. 10-12, tweede verdieping, Aken",
+      "hoursValue": "Donderdag of vrijdag tussen 15 en 20 uur",
+      "pricingValue": "€100/60 min individueel, €130/60 min team/groep",
+      "consultation": "Mijn aanbod is gericht op zelfbetalers. Het honorarium bedraagt 100 euro per 60 minuten voor individuele sessies en 130 euro per 60 minuten voor team- of groepssessies."
     }
   },
   "footer": {
-    "copyright": "© 2025 ---. Alle rechten voorbehouden."
+    "copyright": "© 2025 Dr. Angela Steffan. Alle rechten voorbehouden."
   }
 }

@@ -80,24 +80,50 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize active language button
     updateActiveLanguage(currentLang);
     
-    // Handle contact form submission
+    // Initialize EmailJS with your Public Key
+    // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key from https://dashboard.emailjs.com/admin/account
+    if (typeof emailjs !== 'undefined') {
+        emailjs.init('YOUR_PUBLIC_KEY');
+    }
+    
+    // Handle contact form submission with EmailJS
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+            // Disable submit button during sending
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
             
-            // Get translated success message
-            const successMsg = translations.contact?.form?.successMessage || 
-                `Thank you, ${name}! Your message has been received.\n\nNote: This is a demo form. No actual message was sent.`;
-            
-            alert(successMsg.replace('{name}', name));
-            
-            // Reset form
-            contactForm.reset();
+            // Send email using EmailJS
+            // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs from EmailJS dashboard
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', contactForm)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    
+                    // Show success message
+                    const successMsg = translations.contact?.form?.successMessage || 
+                        'Thank you! Your message has been sent successfully. I will respond within 24-48 hours.';
+                    alert(successMsg);
+                    
+                    // Reset form
+                    contactForm.reset();
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalText;
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    
+                    // Show error message
+                    const errorMsg = translations.contact?.form?.errorMessage || 
+                        'Oops! Something went wrong. Please try again or contact me directly via email.';
+                    alert(errorMsg);
+                    
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalText;
+                });
         });
     }
 });
