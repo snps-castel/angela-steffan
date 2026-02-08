@@ -98,11 +98,16 @@ document.addEventListener('DOMContentLoaded', function() {
             submitBtn.disabled = true;
             submitBtn.textContent = 'Sending...';
             
-            // Send email using EmailJS
-            // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs from EmailJS dashboard
-            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', contactForm)
+            // Send admin notification email
+            emailjs.sendForm('YOUR_SERVICE_ID', 'template_admin', contactForm)
                 .then(function(response) {
-                    console.log('SUCCESS!', response.status, response.text);
+                    console.log('Admin email sent!', response.status, response.text);
+                    
+                    // Send user confirmation email
+                    return emailjs.sendForm('YOUR_SERVICE_ID', 'template_user_confirm', contactForm);
+                })
+                .then(function(response) {
+                    console.log('User confirmation sent!', response.status, response.text);
                     
                     // Show success message
                     const successMsg = translations.contact?.form?.successMessage || 
@@ -113,7 +118,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     contactForm.reset();
                     submitBtn.disabled = false;
                     submitBtn.textContent = originalText;
-                }, function(error) {
+                })
+                .catch(function(error) {
                     console.log('FAILED...', error);
                     
                     // Show error message

@@ -1,0 +1,58 @@
+EmailJS Template: template_admin
+================================
+
+TEMPLATE ID: template_admin
+PURPOSE: Internal notification email to Angela when someone submits the contact form
+TO: praxis.angelasteffan@outlook.de
+REPLY-TO: {{email}}
+
+---
+
+SUBJECT LINE:
+Neue Kontaktanfrage von {{name}}
+
+---
+
+EMAIL BODY:
+
+Neue Kontaktformular-Anfrage
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ANFRAGE DETAILS
+
+Von: {{name}}
+E-Mail: {{email}}
+Telefon: {{phone}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NACHRICHT:
+
+{{message}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Eingereicht am: {{reply_to}}
+Quelle: Angela Steffan Praxis-Website
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Diese Anfrage wurde über das Kontaktformular auf angelasteffan.com eingereicht.
+Sie können direkt auf diese E-Mail antworten, um mit {{name}} Kontakt aufzunehmen.
+
+---
+
+EMAILJS SETTINGS:
+- To Email: praxis.angelasteffan@outlook.de
+- From Name: Angela Steffan Website
+- From Email: noreply@angelasteffan.com (oder Ihre Domain)
+- Reply To: {{email}}
+- CC: (leer lassen)
+- BCC: (optional - für Archivierung)
+
+TEMPLATE VARIABLES:
+- {{name}} → Feld "name" aus dem Formular
+- {{email}} → Feld "email" aus dem Formular
+- {{phone}} → Feld "phone" aus dem Formular
+- {{message}} → Feld "message" aus dem Formular
+- {{reply_to}} → Automatisch von EmailJS (E-Mail des Absenders)

@@ -1,0 +1,57 @@
+EmailJS Template: template_user_confirm
+========================================
+
+TEMPLATE ID: template_user_confirm
+PURPOSE: Automatic confirmation email sent to the user after form submission
+TO: {{email}}
+REPLY-TO: praxis.angelasteffan@outlook.de
+
+---
+
+SUBJECT LINE:
+Vielen Dank für Ihre Kontaktaufnahme - Angela Steffan Praxis
+
+---
+
+EMAIL BODY:
+
+Guten Tag {{name}},
+
+vielen Dank für Ihre Kontaktaufnahme mit der Praxis für Psychotherapie und Systemische Supervision von Dr. Angela Steffan.
+
+Ihre Nachricht ist bei mir eingegangen und ich werde mich innerhalb von 24-48 Stunden bei Ihnen melden.
+
+Ihre Nachricht:
+"{{message}}"
+
+Falls Sie umgehend Unterstützung benötigen, können Sie mich auch direkt kontaktieren:
+
+📧 E-Mail: praxis.angelasteffan@outlook.de
+📍 Adresse: Martinstr. 10-12, zweiter Stock, Aachen
+⏰ Sprechzeiten: Donnerstag oder Freitag zwischen 15 und 20 Uhr
+
+Mit freundlichen Grüßen
+
+Dr. Angela Steffan
+Diplom-Psychologin
+Praxis für Psychotherapie & Systemische Supervision
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Dies ist eine automatische Bestätigung. 
+Bitte antworten Sie nicht direkt auf diese E-Mail.
+Für Rückfragen nutzen Sie bitte: praxis.angelasteffan@outlook.de
+
+---
+
+EMAILJS SETTINGS:
+- To Email: {{email}} (geht automatisch an den Nutzer)
+- From Name: Dr. Angela Steffan
+- From Email: noreply@angelasteffan.com (oder Ihre Domain)
+- Reply To: praxis.angelasteffan@outlook.de
+- CC: (leer lassen)
+- BCC: (leer lassen)
+
+TEMPLATE VARIABLES:
+- {{name}} → Feld "name" aus dem Formular
+- {{email}} → Feld "email" aus dem Formular (wird als TO verwendet)
+- {{message}} → Feld "message" aus dem Formular
