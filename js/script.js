@@ -99,12 +99,12 @@ document.addEventListener('DOMContentLoaded', function() {
             submitBtn.textContent = 'Sending...';
             
             // Send admin notification email
-            emailjs.sendForm('YOUR_SERVICE_ID', 'template_admin', contactForm)
+            emailjs.sendForm('service_u6r31p3', 'template_admin', contactForm)
                 .then(function(response) {
                     console.log('Admin email sent!', response.status, response.text);
                     
                     // Send user confirmation email
-                    return emailjs.sendForm('YOUR_SERVICE_ID', 'template_user_confirm', contactForm);
+                    return emailjs.sendForm('service_u6r31p3', 'template_user_confirm', contactForm);
                 })
                 .then(function(response) {
                     console.log('User confirmation sent!', response.status, response.text);
