@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize EmailJS with your Public Key
     // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key from https://dashboard.emailjs.com/admin/account
     if (typeof emailjs !== 'undefined') {
-        emailjs.init('YOUR_PUBLIC_KEY');
+        emailjs.init('YxVIIwRgiubuYykli');
     }
     
     // Handle contact form submission with EmailJS
